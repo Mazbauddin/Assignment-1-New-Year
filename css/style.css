@@ -45,7 +45,7 @@ ul {
 
 .banner-part .banner-content {
   text-align: center;
-  padding: 190px 100px;
+  padding: 130px 100px;
 }
 .banner-part .banner-content h4 {
   color: #fff;
@@ -157,3 +157,132 @@ ul {
   background-color: red;
 }
 /* midnight-part end  */
+/* schedule-area start */
+.schedule-area {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  padding: 100px;
+  margin-bottom: 100px;
+}
+.schedule-area .schedule-datails * {
+  text-align: center;
+}
+.schedule-datails p span {
+  color: #f00;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  margin-right: 5px;
+}
+.schedule-datails p {
+  color: #070211;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.btn-2 {
+  background-color: #f00;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+}
+.btn-2:hover {
+  background-color: white;
+  color: red;
+  border: 1px solid #f00;
+}
+/* schedule-area end */
+/* offer area start  */
+.offer-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+  margin-bottom: 100px;
+}
+
+.offer-section-new p span {
+  color: #f00;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+.offer-section-new h3 {
+  color: #070211;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.offer-section-new p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.offer-section-img img {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 10px solid red;
+  padding: 20px;
+}
+.offer-section-year h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+.offer-section-year p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-bottom: 25px;
+}
+/* offer area end  */
