@@ -620,10 +620,8 @@ p {
 }
 .footer-details {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0 auto;
-  gap: 650px;
   padding: 30px 0;
 }
 .footer-address,
@@ -634,8 +632,14 @@ p {
   font-weight: 500;
   line-height: 40px;
 }
+.footer-address p.address {
+  text-align: left;
+}
+.footer-contact p {
+  text-align: left;
+}
 .footer-contact i {
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .footer-social-links {
   text-align: center;
@@ -646,6 +650,9 @@ p {
   text-align: center;
   margin: 15px 25px;
 }
+.footer-details p.reserve {
+  text-align: left;
+}
 .footer-details p {
   color: #fff;
   font-size: 24px;
@@ -653,8 +660,8 @@ p {
   font-weight: 500;
   line-height: normal;
 }
-.footer-details .fl-right {
-  float: right;
+.footer-details p.fl-right {
+  text-align: right;
 }
 
 /* footer area end */
