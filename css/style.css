@@ -616,7 +616,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 .footer-details {
   display: flex;
@@ -644,7 +644,7 @@ p {
 .footer-social-links {
   text-align: center;
   padding: 20px 0px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 .footer-social-links a {
   text-align: center;
