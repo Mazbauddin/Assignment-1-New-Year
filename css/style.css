@@ -248,6 +248,7 @@ ul {
   line-height: normal;
   text-transform: capitalize;
   margin-bottom: 15px;
+  text-align: left;
 }
 .offer-section-new p {
   color: rgba(7, 2, 17, 0.6);
@@ -256,6 +257,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 160% */
+  text-align: left;
 }
 
 .offer-section-img img {
@@ -266,6 +268,7 @@ ul {
   -webkit-border-radius: 50%;
   border: 10px solid red;
   padding: 20px;
+  text-align: left;
 }
 .offer-section-year h3 {
   color: #f00;
@@ -501,18 +504,55 @@ p {
   line-height: 32px; /* 160% */
   margin-bottom: 30px;
 }
-.newsletter-section input {
-  display: block;
+.newsletter-form {
+  display: flex;
+}
+.newsletter-form form {
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+  height: 60px;
+  position: relative;
+}
+.newsletter-form form input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 21px 30px;
+  border-radius: 50px;
+  border: none;
+  background: transparent;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.newsletter-form form button {
+  position: absolute;
+  top: -1px;
+  right: -13%;
+}
+/* .newsletter-section .newsletter-form {
+  width: 500px;
+} */
+/* .newsletter-section .newsletter-form input {
   margin: 0 auto;
   padding: 15px 10px;
   border-radius: 16px;
   border: 0;
-  width: 220px;
+  width: 100%;
   position: relative;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
-.newsletter-section button {
+.newsletter-section .newsletter-form button.btn-3 {
   position: absolute;
-}
+  right: 0;
+  top: 0;
+  height: 100%;
+} */
 .btn-3 {
   background-color: #f00;
   color: #fff;
@@ -522,11 +562,11 @@ p {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  padding: 15px 20px;
+  padding: 18px 25px;
   cursor: pointer;
   border: 0;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
+  -webkit-border-radius: 0px 50px 50px 0;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
@@ -537,7 +577,6 @@ p {
   -o-transition: 0.5s;
   margin: 0 auto;
   display: block;
-  margin-top: 40px;
 }
 .btn-3:hover {
   background-color: white;
